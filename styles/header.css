@@ -10,6 +10,16 @@ header {
   z-index: 10;
 }
 
+/* styles for the left side of the header */
+.headerLeft .menuIcon {
+  width: 1.4rem;
+  margin-right: 1.56rem;
+}
+
+.headerLeft .logoIcon {
+  width: 8.12rem;
+}
+
 /* styles for the right side of the header */
 header .headerRight img {
   width: 1.56rem;
