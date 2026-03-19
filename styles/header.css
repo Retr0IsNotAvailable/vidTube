@@ -1,6 +1,6 @@
+/* styles for the header part of the website and its inner elements */
+
 header {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 0.62rem 2%;
   box-shadow: 0 0 0.62rem rgba(0, 0, 0, 0.2);
@@ -8,4 +8,18 @@ header {
   position: static;
   top: 0;
   z-index: 10;
+}
+
+/* styles for the right side of the header */
+header .headerRight img {
+  width: 1.56rem;
+  margin-right: 1.56rem;
+}
+
+/* styles for the user profile picture */
+.headerRight .userIcon {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  margin-right: 0;
 }
