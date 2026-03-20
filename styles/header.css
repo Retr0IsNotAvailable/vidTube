@@ -20,6 +20,26 @@ header {
   width: 8.12rem;
 }
 
+/* styles for the middle side of the header */
+.headerMiddle .searchBox {
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1.56rem;
+}
+.headerMiddle .searchBox input {
+  background: transparent;
+  width: 25rem;
+  border: 0;
+  outline: 0;
+}
+.headerMiddle .searchBox img {
+  width: 1rem;
+}
+.headerMiddle .micIcon {
+  width: 1rem;
+}
+
 /* styles for the right side of the header */
 header .headerRight img {
   width: 1.56rem;

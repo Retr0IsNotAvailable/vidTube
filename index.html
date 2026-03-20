@@ -11,7 +11,7 @@
     <link href="./styles/header.css" rel="stylesheet"/>
   </head>
   <body>
-    <!-- Header of the website -->
+    <!-- Header -->
     <header class="flexDiv">
       <!-- left side of the header, contains:
        menu icon, logo icon with its text-->
@@ -19,7 +19,20 @@
         <img src="./images/menu.png" alt="menu icon" class="menuIcon"/>
         <img src="./images/logo.png" alt="logo icon" class="logoIcon"/>
       </div>
-      <div class="headerMiddle"></div>
+      <!-- middle part of the header, contains:
+       search box,
+       search image icon,
+       voice search image icon-->
+      <div class="headerMiddle flexDiv">
+        <div class="searchBox flexDiv">
+          <input type="text" placeholder="Search"/>
+          <img src="./images/search.png" alt="search icon"/>
+        </div>
+        <img src="./images/voice-search.png" alt="voice search icon"
+          class="micIcon"/>
+      </div>
+      <!-- right part of the header, contains
+       upload image, more image, notification image and user profilek-->
       <div class="headerRight flexDiv">
         <img src="./images/upload.png" alt="upload icon"/>
         <img src="./images/more.png" alt="more icon"/>
@@ -27,5 +40,15 @@
         <img src="./images/jack.png" alt="user icon" class="userIcon"/>
       </div>
     </header>
+
+    <!-- Sidebar -->
+     <aside>
+      <!-- upper section of the sidebar-->
+      <nav class="shortcutLinks">
+        <a href="">
+          <img src="./images/home.png" alt="home icon"/>
+        </a>
+      </nav>
+     </aside>
   </body>
 </html>
